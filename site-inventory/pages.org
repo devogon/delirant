@@ -169,63 +169,110 @@
 ** Delirium Observatie Schaal
    :PROPERTIES:
    :ID: 7
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
+   :TITLE: Delirium Observatie Schaal (DOS)
+   :TEMPLATE: base
+   :URL: /delirium_observatie_schaal
    :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: meetschalen
    :RESPONSIBLE: UMCG
    :END:
+*** TODO main text
+**** internal text links
+     - PubMed abstract http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=12751884
+*** links
+*** attachments
+    - dos.pdf
+*** notes and to do
 ** Confusion Assessment Method
    :PROPERTIES:
    :ID: 6
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
+   :TITLE: Confusion Assessment Method (CAM)
+   :TEMPLATE: base
+   :URL: /confusion_assessment_method
    :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: meetschalen
    :RESPONSIBLE: UMCG
    :END:
+*** TODO main text
+*** links
+    no
+*** attachments
+    - cam_nl.pdf
+*** notes and to do
 ** Neelon/Champagne Confusion Scale
    :PROPERTIES:
    :ID: 32
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
+   :TITLE: Neelon/Champagne Confusion Scale
+   :TEMPLATE: base
+   :URL: /neelon
    :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: meetschalen
    :RESPONSIBLE: UMCG
    :END:
+*** TODO main text
+**** internal links
+     - PubMed abstract http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=8941300&dopt=Abstract
+*** links
+    no
+*** attachments
+    - neecham_confusion_scale.pdf
+*** notes and to do
 ** Delirium Rating Scale Revised 98
    :PROPERTIES:
    :ID: 33
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
+   :TITLE: Delirium Rating Scale Revised 98 (DRS
+   :TEMPLATE: base
+   :URL: /delirium_rating_scale_revised_98
    :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: meetschalen
    :RESPONSIBLE: UMCG
    :END:
+*** TODO main text
+**** internal links
+     - PubMed abstract http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=11449030&dopt=Abstract
+*** links
+    no
+*** attachments
+    - drs-r-98.pdf
+*** notes and to do
 ** Memorial Delirium Assessment Scale
    :PROPERTIES:
    :ID: 8
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
+   :TITLE: Memorial Delirium Assessment Scale (MDAS)
+   :TEMPLATE: base
+   :URL: /memorial_delirium_assessment_scale
    :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: meetschalen
    :RESPONSIBLE: UMCG
    :END:
+*** main text
+**** internal links
+     - PubMed abstract
+*** links
+*** attachments
+    - mdas.pdf
+*** notes and to do
 ** Confusion Assessment Method ICU
    :PROPERTIES:
    :ID: 40
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
+   :TITLE: Confusion Assessment Method ICU
+   :TEMPLATE: base
+   :URL: confusion_assessment_method_icu
    :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: meetschalen
    :RESPONSIBLE: UMCG
    :END:
+*** TODO main text
+**** internal links
+*** links
+*** attachments
+*** notes and to do
 ** medicatie
    :PROPERTIES:
    :ID: 10
@@ -234,11 +281,40 @@
    :URL: /medicatie
    :POSITION: top
    :TYPEOFCONTENT: text
+   :NAV: main
    :RESPONSIBLE: UMCG
    :END:
-*** main text
+*** TODO main text
+    De behandeling van een delirium is tweeledig:
+    1. behandeling van de onderliggende somatische oorzaak.
+    2. behandeling van de symptomen zoals hallucinaties, angst en psychomotore onrust.
+
+    Behandel de symptomen met de volgende combinatie van medicijnen:
+    - haloperidol 2 mg om 18 uur.
+    - temazepam 10 mg om 22 uur.
+    - zo nodig bij hevige onrust: lorazepam 1 mg p.o. of i.m. Herhaal
+      dit als er na één uur geen effect opgetreden is. Maximum: 2 mg
+      lorazepam per dag.
+
+    Ziekte van Parkinson of parkinsonisme:
+    - parkinsonisme is een contra-indicatie voor haloperidol (en
+      andere klassieke antipsychotica).
+    - vervang de haloperidol door olanzapine 2.5 mg om 18 uur.
+    - houd voor de benzodiazepines het bovenstaande schema aan.
+
+    Een symptomatische behandeling is niet altijd noodzakelijk.
+    - bijvoorbeeld als hallucinaties, angst en psychomotore onrust
+      ontbreken.
+
+
+
+    Meer informatie:
+
+    Hoofdstuk 5 van de Richtlijn delirium van de Nederlandse Vereniging voor Psychiatrie (NVvP) [klik hier voor PDF-versie].
 *** links
+    no
 *** attachments
+    - richtlijn_delirium_5_medicamenteuze_behandeling.pdf
 *** notes and to do
 ** verpleging
    :PROPERTIES:
@@ -454,13 +530,15 @@
 *** links
 *** attachments
 *** notes and to do
-** sample
+** Verstoord slaap-waakritme
    :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
+   :ID: 12
+   :TITLE: Verstoord slaap-wakritme
+   :TEMPLATE: base
+   :URL: verstoord slaap-waakritme
    :POSITION: top/sub
    :TYPEOFCONTENT: text
+   :NAV: verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -468,130 +546,135 @@
 *** attachments
 *** notes and to do
 
-** sample
+** Desoriëntatie
    :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
+   :ID: 13
+   :TITLE: desoriëntatie 
+   :TEMPLATE: base
+   :URL: /desorientatie
    :POSITION: top/sub
    :TYPEOFCONTENT: text
+   :NAV: verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-** sample
+** Apathie
    :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :ID: 14
+   :TITLE: Apathie 
+   :TEMPLATE: base
+   :URL: /apathie
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-
-** sample
+** Angst
    :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :ID: 15
+   :TITLE: Angst 
+   :TEMPLATE: base
+   :URL: /angst
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-
-
-
-
-
-
-
-
-
-** sample
+** Overgevoeligheid
    :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :ID: 16
+   :TITLE:  
+   :TEMPLATE:  base
+   :URL: /overgevoeligheid
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-
-** sample
+** Wanen of hallucinaties
    :PROPERTIES:
+   :ID: 20
    :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :TEMPLATE: base
+   :URL: /wanen_of_hallucinaties
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-** sample
+** Verpleegkundige interventies
    :PROPERTIES:
+   :ID: 17
    :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :TEMPLATE: base
+   :URL: /verpleegkundige_interventies
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: !terug naar verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-
-** sample
+** Letsel??
    :PROPERTIES:
+   :ID: 18
    :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :TEMPLATE: base
+   :URL: /letsel
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-** sample
+** Onvoldoende inname
    :PROPERTIES:
+   :ID: 19
    :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :TEMPLATE: base
+   :URL: /onvoldoende_inname
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: !terug naar verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-
-** sample
+** Inname van medicatie
    :PROPERTIES:
+   :ID: 39
    :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :TEMPLATE: base
+   :URL: /inname_van_medicatie
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: !terug naar verpleging
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -721,7 +804,8 @@
 *** notes and to do
 
 
-* main nav
+* TODO nav
+** main
 *** Home
 *** Diagnose
 *** Meetschalen
@@ -733,7 +817,6 @@
 *** Familiefolder
 *** Consult
 *** Links
-* sub navs
 ** diagnose
 *** Criteria (ID 2)
 *** Klinische verschijnselen (current)
@@ -741,3 +824,19 @@
 *** Aanvullend onderzoek (ID 30)
 *** Alcohol onthoudings delirium (ID 4)
 *** Terug naar diagnose (ID 1)
+** meetschalen
+*** CAM
+*** NEECHAM
+*** DOS
+*** DRS-R-98
+*** MDAS
+*** CAM-ICU
+*** Terug naar Meetschalen
+** verpleging
+*** Slaap-waakritme
+*** Desoriëntatie
+*** Apathie
+*** Angst
+*** Overgevoeligheid voor prikkels
+*** Wanen en hallucinaties
+*** Terug naar Verpleging
