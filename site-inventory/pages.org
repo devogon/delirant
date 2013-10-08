@@ -1,6 +1,7 @@
 * pages
 ** diagnose
    :PROPERTIES:
+   :ID: 1
    :TITLE: Diagnose
    :TEMPLATE: base
    :URL: /diagnose
@@ -47,6 +48,7 @@
      alcoholonthoudingsdelirium (links to pagina4)
 ** home page
    :PROPERTIES:
+   :ID: 2
    :TITLE: Delirium
    :TEMPLATE: base
    :URL: /
@@ -92,20 +94,9 @@
 *** images
     - http://delirant.info/DreamHC/Pagina0_IMG_OBJ4.jpg
 
-** main nav
-*** Home
-*** Diagnose
-*** Meetschalen
-*** Medicatie
-*** Verpleging
-*** Risicofactoren
-*** Preventie
-*** Bij ontslag
-*** Familiefolder
-*** Consult
-*** Links
 ** meetschalen
    :PROPERTIES:
+   :ID: 3
    :TITLE: Meetschalen
    :TEMPLATE: base
    :URL: /meetschalen
@@ -163,9 +154,530 @@
 *** links
     [[Confusion Assessment Method][CAM]] [[Neelon/Champagne Confusion Scale][NEECHAM]] [[Delirium Observatie Schaal][DOS]] [[Delirium Rating Scale Revised 98][DRS-R-98]] [[Memorial Delirium Assessment Scale][MDAS]] [[Confusion Assessment Method ICU][CAM-ICU]]
 ** Delirium Observatie Schaal
+   :PROPERTIES:
+   :ID: 
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
 ** Confusion Assessment Method
+   :PROPERTIES:
+   :ID:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
 ** Neelon/Champagne Confusion Scale
+   :PROPERTIES:
+   :ID:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
 ** Delirium Rating Scale Revised 98
+   :PROPERTIES:
+   :ID:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
 ** Memorial Delirium Assessment Scale
+   :PROPERTIES:
+   :ID:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
 ** Confusion Assessment Method ICU
+   :PROPERTIES:
+   :ID:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+** medicatie
+   :PROPERTIES:
+   :ID: 4
+   :TITLE: Medicatie
+   :TEMPLATE: base
+   :URL: /medicatie
+   :POSITION: top
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** verpleging
+   :PROPERTIES:
+   :ID: 5
+   :TITLE: Verpleging
+   :TEMPLATE: base
+   :URL: /verpleging
+   :POSITION: top
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** risicofactoren
+   :PROPERTIES:
+   :ID: 6
+   :TITLE:    Risicofactoren
+   :TEMPLATE: base
+   :URL:      /risicofactoren
+   :POSITION: top
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
 
+***** sample
+      :PROPERTIES:
+      :TITLE: 
+      :TEMPLATE: 
+      :URL: 
+      :POSITION: top/sub
+      :TYPEOFCONTENT: text
+      :RESPONSIBLE: UMCG
+      :END:
+****** main text
+****** links
+****** attachments
+****** notes and to do
+
+** preventie
+   :PROPERTIES:
+   :ID: 7
+   :TITLE: Preventie
+   :TEMPLATE: base
+   :URL: /preventie
+   :POSITION: top
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** bij_ontslag
+   :PROPERTIES:
+   :ID: 8
+   :TITLE: Bij ontslag
+   :TEMPLATE: base
+   :URL: /bij_ontslag
+   :POSITION: top
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** consult
+   :PROPERTIES:
+   :ID: 9
+   :TITLE: Consult 
+   :TEMPLATE: base
+   :URL: /consult
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** links
+   :PROPERTIES:
+   :ID: 10
+   :TITLE: Links  
+   :TEMPLATE: base
+   :URL: /links
+   :POSITION: top
+   :TYPEOFCONTENT: links
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+
+
+
+
+
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+
+
+
+
+
+
+
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+* main nav
+*** Home
+*** Diagnose
+*** Meetschalen
+*** Medicatie
+*** Verpleging
+*** Risicofactoren
+*** Preventie
+*** Bij ontslag
+*** Familiefolder
+*** Consult
+*** Links
