@@ -1,93 +1,169 @@
-* diagnose
-** the image here sits above the nav
-   http://delirant.info/DreamHC/Pagina1_IMG_OBJ0.jpg
-** main text
-*** *De diagnostiek van het delirium bestaat uit twee stappen:*
+* pages
+** diagnose
+   :PROPERTIES:
+   :TITLE: Diagnose
+   :TEMPLATE: base
+   :URL: /diagnose
+   :POSITION: top
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** notes
+**** TODO the image here sits above the nav. why?
+     http://delirant.info/DreamHC/Pagina1_IMG_OBJ0.jpg
+*** main text
+**** *De diagnostiek van het delirium bestaat uit twee stappen:*
 
-   1. Stel vast of de patiënt een delirium heeft.
-   2. Doe verder onderzoek naar de onderliggende somatische oorzaak
-      als de patiënt delirant is.
+    1. Stel vast of de patiënt een delirium heeft.
+    2. Doe verder onderzoek naar de onderliggende somatische oorzaak
+       als de patiënt delirant is.
 
-*** *Er is waarschijnlijk sprake van een delirium:*
-    - als de patiënt cognitieve stoornissen of hallucinaties heeft.
-    - als deze stoornissen in korte tijd ontstaan zijn (uren, dagen).
-    - als de patiënt wisselend adequaat is (raadpleeg het
-      verpleegkundig dossier).
+**** *Er is waarschijnlijk sprake van een delirium:*
+     - als de patiënt cognitieve stoornissen of hallucinaties heeft.
+     - als deze stoornissen in korte tijd ontstaan zijn (uren, dagen).
+     - als de patiënt wisselend adequaat is (raadpleeg het
+       verpleegkundig dossier).
 
-*** *Veel voorkomende oorzaken van een delirium zijn:*
-    - infectie (urinewegen, luchtwegen)
-    - dehydratie
-    - hyponatriaemie
-    - hypercalciaemie
-    - opiaten
-    - onttrekking van alcohol of langwerkende benzodiazepines
-    - pijn
+**** *Veel voorkomende oorzaken van een delirium zijn:*
+     - infectie (urinewegen, luchtwegen)
+     - dehydratie
+     - hyponatriaemie
+     - hypercalciaemie
+     - opiaten
+     - onttrekking van alcohol of langwerkende benzodiazepines
+     - pijn
 
-*** *Bij alcoholgebruik:*
-    - stel de diagnose alcoholonthoudingsdelirium pas na uitsluiting
-      van andere somatische oorzaken.
+**** *Bij alcoholgebruik:*
+     - stel de diagnose alcoholonthoudingsdelirium pas na uitsluiting
+       van andere somatische oorzaken.
 
-*** *Meer informatie:*
+**** *Meer informatie:*
 
-    diagnostische criteria (links to  pagina2)
-    klinische verschijnselen (links to pagina29)
-    oorzaken (links to pagina3)
+     diagnostische criteria (links to  pagina2)
+     klinische verschijnselen (links to pagina29)
+     oorzaken (links to pagina3)
 
-    aanvullend onderzoek (links to pagina30)
-    alcoholonthoudingsdelirium (links to pagina4)
-* home page
-** www upper left
-** site title
-** site one-liner:
-   Multidisciplinaire richlijn
-** list of links on left
-** this image: http://delirant.info/DreamHC/Pagina0_IMG_OBJ4.jpg
-** main text
-   *Deze website is ontworpen door de consultatieve diensten Geriatrie
-   en Psychiatrie van het Universitair Medisch Centrum Groningen
-   (UMCG).*
+     aanvullend onderzoek (links to pagina30)
+     alcoholonthoudingsdelirium (links to pagina4)
+** home page
+   :PROPERTIES:
+   :TITLE: Delirium
+   :TEMPLATE: base
+   :URL: /
+   :POSITION: top
+   :TYPEOFCONTENT: introduction. text.
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+    Deze website is ontworpen door de consultatieve diensten Geriatrie
+    en Psychiatrie van het Universitair Medisch Centrum Groningen
+    (UMCG).
 
-   Het doel van de website is om de verpleegafdelingen van het UMCG de
-   beschikking te geven over een multidisciplinaire richtlijn ter
-   preventie, diagnostiek en behandeling van het delirium.  De website
-   is gebaseerd op de nieuwe Richtlijn delirium van de Nederlandse
-   Vereniging voor Psychiatrie (NVvP) die is ontwikkeld in
-   samenwerking met de Nederlandse Vereniging voor Klinische Geriatrie
-   (NVKG). De totstandkoming van de richtlijn is inhoudelijk
-   ondersteund door het Kwaliteitsinstituut voor de Gezondheidszorg
-   CBO.
-** last modified date
-** gebruik van de website:
-   - De website is gericht op patiënten die zijn opgenomen in een
-     algemeen ziekenhuis.
-   - Het staat een ieder vrij om de informatie en adviezen van deze
-     website te gebruiken.
-   - /Wij adviseren met nadruk om de website te gebruiken in overleg
-     met een klinisch geriater of psychiater./
-   - Wij accepteren geen verantwoordelijkheid voor het gebruik van de
-     informatie en adviezen van deze website buiten het Universitair
-     Medisch Centrum Groningen.
-   - Wij stellen het op prijs als u ons laat weten dat u de website
-     gebruikt.
+    Het doel van de website is om de verpleegafdelingen van het UMCG de
+    beschikking te geven over een multidisciplinaire richtlijn ter
+    preventie, diagnostiek en behandeling van het delirium.  De website
+    is gebaseerd op de nieuwe Richtlijn delirium van de Nederlandse
+    Vereniging voor Psychiatrie (NVvP) die is ontwikkeld in
+    samenwerking met de Nederlandse Vereniging voor Klinische Geriatrie
+    (NVKG). De totstandkoming van de richtlijn is inhoudelijk
+    ondersteund door het Kwaliteitsinstituut voor de Gezondheidszorg
+    CBO.
+*** sidebar
+    *gebruik van de website:*
+    - De website is gericht op patiënten die zijn opgenomen in een
+      algemeen ziekenhuis.
+    - Het staat een ieder vrij om de informatie en adviezen van deze
+      website te gebruiken.
+    - /Wij adviseren met nadruk om de website te gebruiken in overleg
+      met een klinisch geriater of psychiater./
+    - Wij accepteren geen verantwoordelijkheid voor het gebruik van de
+      informatie en adviezen van deze website buiten het Universitair
+      Medisch Centrum Groningen.
+    - Wij stellen het op prijs als u ons laat weten dat u de website
+      gebruikt.
+**** Verantwoording: [ [[http://delirant.info/DreamHC/Pagina38.html][klik hier]] ]
+**** Meer informatie:
 
-*** Verantwoording: [ [[http://delirant.info/DreamHC/Pagina38.html][klik hier]] ]
+     G.J. Izaks, klinisch geriater
+     Afd. Algemene Interne Geneeskunde /
+     Geriatrie
+     UMC Groningen
+     [ [[g.j.izaks@int.umcg.nl][ e-mail]] ]
+*** images
+    - http://delirant.info/DreamHC/Pagina0_IMG_OBJ4.jpg
 
-*** Meer informatie:
+** main nav
+*** Home
+*** Diagnose
+*** Meetschalen
+*** Medicatie
+*** Verpleging
+*** Risicofactoren
+*** Preventie
+*** Bij ontslag
+*** Familiefolder
+*** Consult
+*** Links
+** meetschalen
+   :PROPERTIES:
+   :TITLE: Meetschalen
+   :TEMPLATE: base
+   :URL: /meetschalen
+   :POSITION: top
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+    Er zijn veel verschillende meetschalen voor het delirium. Op dit
+    moment is de wetenschappelijke onderbouwing voor alle meetschalen
+    nog beperkt.
 
-    G.J. Izaks, klinisch geriater
-    Afd. Algemene Interne Geneeskunde /
-    Geriatrie
-    UMC Groningen
-    [ [[g.j.izaks@int.umcg.nl][ e-mail]] ]
-* links in main nav
-** Home
-** Diagnose
-** Meetschalen
-** Medicatie
-** Verpleging
-** Risicofactoren
-** Preventie
-** Bij ontslag
-** Familiefolder
-** Consult
-** Links
+    De Delirium Observatie Schaal [[Delirium Observatie Schaal][DOS]] is naar onze mening het meest
+    geschikt voor gebruik op de gewone verpleegafdeling.
+
+    In de richtlijn van de NVvP worden ook andere meetschalen
+    geadviseerd. Bij de keuze voor een meetschaal wordt in de
+    richtlijn onderscheid gemaakt naar gebruiker (arts of
+    verpleegkundige) en doel (screening, diagnostiek of ernstmeting):
+
+    Screening door artsen:
+    - Confusion Assessment Method (CAM)
+
+    Screening door verpleegkundigen:
+    - Neelon/Champagne Confusion Scale (NEECHAM)
+    - alternatief: Delirium Observatie Schaal (DOS)
+
+    Diagnostiek:
+    - Delirium Rating Scale Revised 98 (DRS-R-98)
+    
+    Ernstmeting:
+    - Delirium Rating Scale Revised 98 (DRS-R-98)
+    - Memorial Delirium Assessment Scale (MDAS)
+    
+    Intensive Care:
+    Niet genoemd in de richtlijn van de NVvP maar ontwikkeld voor intensive care afdelingen:
+    - Confusion Assessment Method ICU (CAM-ICU)
+    
+    *Nadelen van meetschalen:*
+    - Afname vereist speciale training van artsen en verpleegkundigen.
+    - Gebruik is tijdrovend en soms complex.
+    - De wetenschappelijke onderbouwing is op dit moment nog beperkt
+
+    /In de dagelijkse praktijk is het niet noodzakelijk om meetschalen
+    te gebruiken./
+
+
+
+    Meer informatie:
+
+    Hoofdstuk 4 van de richtlijn delirium van de Nederlandse Vereniging voor Psychiatrie (NVvP)
+    [klik hier voor PDF-versie].
+
+    [[Confusion Assessment Method][CAM]] [[Neelon/Champagne Confusion Scale][NEECHAM]] [[Delirium Observatie Schaal][DOS]] [[Delirium Rating Scale Revised 98][DRS-R-98]] [[Memorial Delirium Assessment Scale][MDAS]] [[Confusion Assessment Method ICU][CAM-ICU]]
+** Delirium Observatie Schaal
+** Confusion Assessment Method
+** Neelon/Champagne Confusion Scale
+** Delirium Rating Scale Revised 98
+** Memorial Delirium Assessment Scale
+** Confusion Assessment Method ICU
+
