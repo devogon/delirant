@@ -157,8 +157,10 @@
     Meer informatie:
 
     Hoofdstuk 4 van de richtlijn delirium van de Nederlandse Vereniging voor Psychiatrie (NVvP)
-    [klik hier voor PDF-versie].
-
+    [[http://delirant.info/DreamHC/Download/Richtlijn%20delirium%204%20meetinstrumenten.pdf][klik hier voor PDF-versie]]. 
+*** attachments
+    richtlijn_delirium_4_meetinstrumenten.pdf
+*** links
     [[Confusion Assessment Method][CAM]] [[Neelon/Champagne Confusion Scale][NEECHAM]] [[Delirium Observatie Schaal][DOS]] [[Delirium Rating Scale Revised 98][DRS-R-98]] [[Memorial Delirium Assessment Scale][MDAS]] [[Confusion Assessment Method ICU][CAM-ICU]]
 ** Delirium Observatie Schaal
 ** Confusion Assessment Method
