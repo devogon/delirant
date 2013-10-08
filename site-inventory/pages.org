@@ -1,0 +1,93 @@
+* diagnose
+** the image here sits above the nav
+   http://delirant.info/DreamHC/Pagina1_IMG_OBJ0.jpg
+** main text
+*** *De diagnostiek van het delirium bestaat uit twee stappen:*
+
+   1. Stel vast of de patiënt een delirium heeft.
+   2. Doe verder onderzoek naar de onderliggende somatische oorzaak
+      als de patiënt delirant is.
+
+*** *Er is waarschijnlijk sprake van een delirium:*
+    - als de patiënt cognitieve stoornissen of hallucinaties heeft.
+    - als deze stoornissen in korte tijd ontstaan zijn (uren, dagen).
+    - als de patiënt wisselend adequaat is (raadpleeg het
+      verpleegkundig dossier).
+
+*** *Veel voorkomende oorzaken van een delirium zijn:*
+    - infectie (urinewegen, luchtwegen)
+    - dehydratie
+    - hyponatriaemie
+    - hypercalciaemie
+    - opiaten
+    - onttrekking van alcohol of langwerkende benzodiazepines
+    - pijn
+
+*** *Bij alcoholgebruik:*
+    - stel de diagnose alcoholonthoudingsdelirium pas na uitsluiting
+      van andere somatische oorzaken.
+
+*** *Meer informatie:*
+
+    diagnostische criteria (links to  pagina2)
+    klinische verschijnselen (links to pagina29)
+    oorzaken (links to pagina3)
+
+    aanvullend onderzoek (links to pagina30)
+    alcoholonthoudingsdelirium (links to pagina4)
+* home page
+** www upper left
+** site title
+** site one-liner:
+   Multidisciplinaire richlijn
+** list of links on left
+** this image: http://delirant.info/DreamHC/Pagina0_IMG_OBJ4.jpg
+** main text
+   *Deze website is ontworpen door de consultatieve diensten Geriatrie
+   en Psychiatrie van het Universitair Medisch Centrum Groningen
+   (UMCG).*
+
+   Het doel van de website is om de verpleegafdelingen van het UMCG de
+   beschikking te geven over een multidisciplinaire richtlijn ter
+   preventie, diagnostiek en behandeling van het delirium.  De website
+   is gebaseerd op de nieuwe Richtlijn delirium van de Nederlandse
+   Vereniging voor Psychiatrie (NVvP) die is ontwikkeld in
+   samenwerking met de Nederlandse Vereniging voor Klinische Geriatrie
+   (NVKG). De totstandkoming van de richtlijn is inhoudelijk
+   ondersteund door het Kwaliteitsinstituut voor de Gezondheidszorg
+   CBO.
+** last modified date
+** gebruik van de website:
+   - De website is gericht op patiënten die zijn opgenomen in een
+     algemeen ziekenhuis.
+   - Het staat een ieder vrij om de informatie en adviezen van deze
+     website te gebruiken.
+   - /Wij adviseren met nadruk om de website te gebruiken in overleg
+     met een klinisch geriater of psychiater./
+   - Wij accepteren geen verantwoordelijkheid voor het gebruik van de
+     informatie en adviezen van deze website buiten het Universitair
+     Medisch Centrum Groningen.
+   - Wij stellen het op prijs als u ons laat weten dat u de website
+     gebruikt.
+
+*** Verantwoording: [ [[http://delirant.info/DreamHC/Pagina38.html][klik hier]] ]
+
+*** Meer informatie:
+
+    G.J. Izaks, klinisch geriater
+    Afd. Algemene Interne Geneeskunde /
+    Geriatrie
+    UMC Groningen
+    [ [[g.j.izaks@int.umcg.nl][ e-mail]] ]
+* links in main nav
+** Home
+** Diagnose
+** Meetschalen
+** Medicatie
+** Verpleging
+** Risicofactoren
+** Preventie
+** Bij ontslag
+** Familiefolder
+** Consult
+** Links
