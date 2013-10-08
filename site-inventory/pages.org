@@ -1,3 +1,6 @@
+* general notes and such
+** design
+*** there's a lot of blue text that looks like link text but is not
 * pages
 ** diagnose
    :PROPERTIES:
@@ -7,6 +10,7 @@
    :URL: /diagnose
    :POSITION: top
    :TYPEOFCONTENT: text
+   :NAV: main
    :RESPONSIBLE: UMCG
    :END:
 *** notes
@@ -40,20 +44,23 @@
 
 **** *Meer informatie:*
 
-     diagnostische criteria (links to  pagina2)
-     klinische verschijnselen (links to pagina29)
-     oorzaken (links to pagina3)
+*** links
+     [[Diagnostische Criteria][diagnostische criteria]]
+     [[Klinklinische verschijnselen][klinische verschijnselen]] 
+     [[Oorzaken][oorzaken]]
 
-     aanvullend onderzoek (links to pagina30)
-     alcoholonthoudingsdelirium (links to pagina4)
+     [[Aanvaanvullend onderzoek][onderzoek]]
+     [[Alcoholonthoudingsdelirium][alcoholonthoudingsdelirium]]
+*** attachments
 ** home page
    :PROPERTIES:
-   :ID: 2
+   :ID: 0
    :TITLE: Delirium
    :TEMPLATE: base
    :URL: /
    :POSITION: top
    :TYPEOFCONTENT: introduction. text.
+   :NAV: main
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -83,7 +90,7 @@
       Medisch Centrum Groningen.
     - Wij stellen het op prijs als u ons laat weten dat u de website
       gebruikt.
-**** Verantwoording: [ [[http://delirant.info/DreamHC/Pagina38.html][klik hier]] ]
+**** Verantwoording: [ [[Verantwoording][klik hier]] ]
 **** Meer informatie:
 
      G.J. Izaks, klinisch geriater
@@ -96,12 +103,13 @@
 
 ** meetschalen
    :PROPERTIES:
-   :ID: 3
+   :ID: 5
    :TITLE: Meetschalen
    :TEMPLATE: base
    :URL: /meetschalen
    :POSITION: top
    :TYPEOFCONTENT: text
+   :NAV: main
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -152,10 +160,15 @@
 *** attachments
     richtlijn_delirium_4_meetinstrumenten.pdf
 *** links
-    [[Confusion Assessment Method][CAM]] [[Neelon/Champagne Confusion Scale][NEECHAM]] [[Delirium Observatie Schaal][DOS]] [[Delirium Rating Scale Revised 98][DRS-R-98]] [[Memorial Delirium Assessment Scale][MDAS]] [[Confusion Assessment Method ICU][CAM-ICU]]
+    [[Confusion Assessment Schaal][CAM]]
+    [[Neelon/Champagne Confusion Scale][NEECHAM]]
+    [[Delirium Observatie Schaal][DOS]]
+    [[Delirium Rating Scale Revised 98][DRS-R-98]]
+    [[Memorial Delirium Assessment Scale][MDAS]]
+    [[Confusion Assessment Method ICU][CAM-ICU]]
 ** Delirium Observatie Schaal
    :PROPERTIES:
-   :ID: 
+   :ID: 7
    :TITLE: 
    :TEMPLATE: 
    :URL: 
@@ -165,7 +178,7 @@
    :END:
 ** Confusion Assessment Method
    :PROPERTIES:
-   :ID:
+   :ID: 6
    :TITLE: 
    :TEMPLATE: 
    :URL: 
@@ -175,7 +188,7 @@
    :END:
 ** Neelon/Champagne Confusion Scale
    :PROPERTIES:
-   :ID:
+   :ID: 32
    :TITLE: 
    :TEMPLATE: 
    :URL: 
@@ -185,7 +198,7 @@
    :END:
 ** Delirium Rating Scale Revised 98
    :PROPERTIES:
-   :ID:
+   :ID: 33
    :TITLE: 
    :TEMPLATE: 
    :URL: 
@@ -195,7 +208,7 @@
    :END:
 ** Memorial Delirium Assessment Scale
    :PROPERTIES:
-   :ID:
+   :ID: 8
    :TITLE: 
    :TEMPLATE: 
    :URL: 
@@ -205,7 +218,7 @@
    :END:
 ** Confusion Assessment Method ICU
    :PROPERTIES:
-   :ID:
+   :ID: 40
    :TITLE: 
    :TEMPLATE: 
    :URL: 
@@ -215,7 +228,7 @@
    :END:
 ** medicatie
    :PROPERTIES:
-   :ID: 4
+   :ID: 10
    :TITLE: Medicatie
    :TEMPLATE: base
    :URL: /medicatie
@@ -229,7 +242,7 @@
 *** notes and to do
 ** verpleging
    :PROPERTIES:
-   :ID: 5
+   :ID: 11
    :TITLE: Verpleging
    :TEMPLATE: base
    :URL: /verpleging
@@ -243,7 +256,7 @@
 *** notes and to do
 ** risicofactoren
    :PROPERTIES:
-   :ID: 6
+   :ID: 21
    :TITLE:    Risicofactoren
    :TEMPLATE: base
    :URL:      /risicofactoren
@@ -256,23 +269,9 @@
 *** attachments
 *** notes and to do
 
-***** sample
-      :PROPERTIES:
-      :TITLE: 
-      :TEMPLATE: 
-      :URL: 
-      :POSITION: top/sub
-      :TYPEOFCONTENT: text
-      :RESPONSIBLE: UMCG
-      :END:
-****** main text
-****** links
-****** attachments
-****** notes and to do
-
 ** preventie
    :PROPERTIES:
-   :ID: 7
+   :ID: 22
    :TITLE: Preventie
    :TEMPLATE: base
    :URL: /preventie
@@ -286,7 +285,7 @@
 *** notes and to do
 ** bij_ontslag
    :PROPERTIES:
-   :ID: 8
+   :ID: 35
    :TITLE: Bij ontslag
    :TEMPLATE: base
    :URL: /bij_ontslag
@@ -301,7 +300,7 @@
 
 ** consult
    :PROPERTIES:
-   :ID: 9
+   :ID: 36
    :TITLE: Consult 
    :TEMPLATE: base
    :URL: /consult
@@ -316,7 +315,7 @@
 
 ** links
    :PROPERTIES:
-   :ID: 10
+   :ID: 37
    :TITLE: Links  
    :TEMPLATE: base
    :URL: /links
@@ -328,6 +327,195 @@
 *** links
 *** attachments
 *** notes and to do
+    
+** Verantwoording
+   :PROPERTIES:
+   :ID: 38
+   :TITLE: Verantwoording
+   :TEMPLATE: base
+   :URL: /verantwoording
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+    Verantwoording
+
+    Deze website is grotendeels gebaseerd op de nieuwe Richtlijn
+    delirium van de Nederlandse Vereniging voor Psychiatrie
+    (Uitgeverij Boom, Amsterdam, 2004) maar wijkt daar op een klein
+    aantal punten van af. De aanpassingen vergroten naar oordeel van
+    de makers de bruikbaarheid van de website. Zij veranderen echter
+    niets aan de hoofdlijnen en adviezen van de richtlijn.
+
+    Een enkele tekst van de website is integraal overgenomen uit de
+    richtlijn. In de meeste gevallen is de oorspronkelijke tekst
+    geschreven door de auteur van het hoofdstuk waarnaar verwezen
+    wordt aan de onderzijde van de webpagina ("Meer informatie:").
+
+    De richtlijn, en dus ook deze website, heeft tot stand kunnen
+    komen door de inspanningen van de werkgroep die de richtlijn
+    voorbereidde en door inhoudelijke ondersteuning van het
+    Kwaliteitsinstituut voor de Gezondheidszorg CBO. De werkgroep en
+    het CBO dragen echter geen enkele verantwoordelijkheid voor de
+    inhoud van de website.
+
+    De website is gemaakt door mw drs A.M. Boelens, verpleegkundig
+    specialist geriatrie, W.M.  van Voorst, nurse-practitioner
+    psychiatrie, en G.J. Izaks, klinisch geriater.
+
+    Contact:
+*** links
+    - e-mail A.M. Boelens      a.m.boelens@int.umcg.nl
+    - e-mail W.M. van Voorst   w.m.van.voorst@psy.umcg.nl
+    - e-mail G.J. Izaks        g.j.izaks@int.umcg.nl
+*** attachments
+*** notes and to do
+**** TODO this page has _no_ navigation on the live site. None!
+
+** Diagnostische Criteria
+   :PROPERTIES:
+   :ID: 2
+   :TITLE: Diagnostische Criteria
+   :TEMPLATE: base
+   :URL:      /diagnostische_criteria
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :NAV: diagnose
+   :RESPONSIBLE: UMCG
+   :END:
+*** TODO main text
+*** TODO links
+*** attachments
+    none.
+*** notes and to do
+**** TODO nav on this page is just plain text. different than the other pages.
+** Klinische verschijnselen
+   :PROPERTIES:
+   :ID: 29
+   :TITLE: Klinische verschijnselen
+   :TEMPLATE: base
+   :URL: /klinische_verschijnselen
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :NAV: diagnose
+   :RESPONSIBLE: UMCG
+   :END:
+*** TODO main text
+*** links
+    no external
+*** attachments
+    - richtlijn_delirium_2_verschijnselen.pdf
+*** notes and to do
+**** nav is basic text links
+** Oorzaken
+   :PROPERTIES:
+   :ID: 3
+   :TITLE: Oorzaken
+   :TEMPLATE: base
+   :URL: /oorzaken
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :NAV: diagnose
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** Aanvullend onderzoek
+   :PROPERTIES:
+   :ID: 30
+   :TITLE: Aanvullend onderzoek 
+   :TEMPLATE: base
+   :URL: /aanvullend_onderzoek
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :NAV: diagnose
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** Alcoholonthoudingsdelirium
+   :PROPERTIES:
+   :ID: 4
+   :TITLE: Alcoholonthoudingsdelirium
+   :TEMPLATE: base
+   :URL: /alcoholonthoudingsdelirium
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :NAV: diagnose
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+** sample
+   :PROPERTIES:
+   :TITLE: 
+   :TEMPLATE: 
+   :URL: 
+   :POSITION: top/sub
+   :TYPEOFCONTENT: text
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+
+
+
+
+
+
+
+
 
 ** sample
    :PROPERTIES:
@@ -410,76 +598,6 @@
 *** links
 *** attachments
 *** notes and to do
-
-
-
-
-
-
-
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-
-
-
-
-
-
-
-
-
 ** sample
    :PROPERTIES:
    :TITLE: 
@@ -590,85 +708,19 @@
 *** notes and to do
 ** sample
    :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
+      :TITLE: 
+      :TEMPLATE: 
+      :URL: 
+      :POSITION: top/sub
+      :TYPEOFCONTENT: text
+      :RESPONSIBLE: UMCG
+      :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
 
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
 
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
 * main nav
 *** Home
 *** Diagnose
@@ -681,3 +733,11 @@
 *** Familiefolder
 *** Consult
 *** Links
+* sub navs
+** diagnose
+*** Criteria (ID 2)
+*** Klinische verschijnselen (current)
+*** Oorzaken (ID 3)
+*** Aanvullend onderzoek (ID 30)
+*** Alcohol onthoudings delirium (ID 4)
+*** Terug naar diagnose (ID 1)
