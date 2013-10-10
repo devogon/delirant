@@ -338,13 +338,14 @@
    :URL:      /risicofactoren
    :POSITION: top
    :TYPEOFCONTENT: text
+   :NAV: main
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
+    geneesmiddelen met anticholinerge werking
 *** attachments
 *** notes and to do
-
 ** preventie
    :PROPERTIES:
    :ID: 22
@@ -353,6 +354,7 @@
    :URL: /preventie
    :POSITION: top
    :TYPEOFCONTENT: text
+   :NAV: main
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -367,6 +369,7 @@
    :URL: /bij_ontslag
    :POSITION: top
    :TYPEOFCONTENT: text
+   :NAV: main
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -382,6 +385,7 @@
    :URL: /consult
    :POSITION: top/sub
    :TYPEOFCONTENT: text
+   :NAV: main
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -397,6 +401,7 @@
    :URL: /links
    :POSITION: top
    :TYPEOFCONTENT: links
+   :NAV: main
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -681,13 +686,15 @@
 *** links
 *** attachments
 *** notes and to do
-** sample
+** Geneesmiddelen met anticholinerge werking
    :PROPERTIES:
+   :ID: 31
    :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :TEMPLATE: base
+   :URL: /geneesmiddelen_met_anticholinerge_werking
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: oorzaken
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -695,53 +702,30 @@
 *** attachments
 *** notes and to do
 
-** sample
+** Cognitieve stoornissen
    :PROPERTIES:
+   :ID: 23
    :TITLE: 
    :TEMPLATE: 
    :URL: 
-   :POSITION: top/sub
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: preventie
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-** sample
+** Gestoorde slaap
    :PROPERTIES:
+   :ID: 24
    :TITLE: 
    :TEMPLATE: 
    :URL: 
-   :POSITION: top/sub
+   :POSITION: sub
    :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
-   :RESPONSIBLE: UMCG
-   :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-** sample
-   :PROPERTIES:
-   :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
-   :TYPEOFCONTENT: text
+   :NAV: preventie
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -749,26 +733,60 @@
 *** attachments
 *** notes and to do
 
-** sample
+** Immobiliteit
    :PROPERTIES:
+   :ID: 25
    :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :TEMPLATE: base
+   :URL: /immobiliteit
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: preventie
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-** sample
+** Gestoorde visus
    :PROPERTIES:
+   :ID: 26
+   :TITLE: 
+   :TEMPLATE: base
+   :URL: /gestoorde_visus
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :NAV: preventie
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** Gestoord gehoor
+   :PROPERTIES:
+   :ID: 27
    :TITLE: 
    :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :URL: /gestoord_gehoor
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: preventie
+   :RESPONSIBLE: UMCG
+   :END:
+*** main text
+*** links
+*** attachments
+*** notes and to do
+** Dehydratie
+   :PROPERTIES:
+   :ID: 28
+   :TITLE: 
+   :TEMPLATE: base
+   :URL: /dehydratie
+   :POSITION: sub
+   :TYPEOFCONTENT: text
+   :NAV: preventie
    :RESPONSIBLE: UMCG
    :END:
 *** main text
@@ -776,34 +794,21 @@
 *** attachments
 *** notes and to do
 
-** sample
+** Geneesmiddelen algemeen
    :PROPERTIES:
+   :ID: 34
    :TITLE: 
-   :TEMPLATE: 
-   :URL: 
-   :POSITION: top/sub
+   :TEMPLATE: base
+   :URL: geneesmiddelen_algemeen
+   :POSITION: sub
    :TYPEOFCONTENT: text
+   :NAV: oorzaken
    :RESPONSIBLE: UMCG
    :END:
 *** main text
 *** links
 *** attachments
 *** notes and to do
-** sample
-   :PROPERTIES:
-      :TITLE: 
-      :TEMPLATE: 
-      :URL: 
-      :POSITION: top/sub
-      :TYPEOFCONTENT: text
-      :RESPONSIBLE: UMCG
-      :END:
-*** main text
-*** links
-*** attachments
-*** notes and to do
-
-
 * TODO nav
 ** main
 *** Home
@@ -840,3 +845,15 @@
 *** Overgevoeligheid voor prikkels
 *** Wanen en hallucinaties
 *** Terug naar Verpleging
+** oorzaken
+*** Geneesmiddelen anticholinerge werking
+*** Geneesmiddelen algemeen
+*** Terug naar Oorzaken
+** preventie
+*** Cognitieve stoornissen
+*** Gestoorde slaap
+*** Immobiliteit
+*** Gestoorde visus
+*** Gestoorde gehoor
+*** Dehydratie
+*** Terug naar Preventie
