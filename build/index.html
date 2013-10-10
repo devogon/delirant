@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html>
+<!-- use baseline 20? to test line-ups -->
+<!-- read this about adding and removing css classes with javascript -->
+<!-- http://stackoverflow.com/questions/195951/change-an-elements-css-class-with-javanscript?rq=1 -->
+
+<head>
+  <meta name="KEYWORDS" content="">
+  <meta name="DESCRIPTION" content="">
+  <meta charset="UTF-8">
+
+  <title>Homepage richtlijn delirium</title>
+  <style type="text/css">
+    .parabold {
+       font-family:Verdana;
+       font-weight:bold;
+       font-size:1.08em;
+       line-height: 1.6;
+    }
+    .content {
+       font-family: Verdana;
+       font-weight:normal;
+       font-style:normal;
+       font-size:1.08em;
+       line-height: 1.6;
+    }
+    .sidebartext {
+       font-family: Verdana;
+       font-weight:normal;
+       font-style:normal;
+       font-size:.95em;
+       line-height: 1.6;
+    }
+    emphasis {
+       font-family:Verdana;
+       font-style:italic;
+       font-size:1.08em;
+    }
+
+  .textstyle3 {font-family:Verdana;font-weight:normal;font-style:normal;font-size:8pt;text-decoration:normal;color:#000000;} //0000ff
+
+//  .textstyle4 {font-family:Arial;font-weight:bold;font-style:normal;font-size:14pt;text-decoration:normal;color:#ffff80;}
+
+  .textstyle5 {font-family:Arial;font-weight:bold;font-style:normal;font-size:10pt;text-decoration:normal;color:#ffffff;}
+
+  .textstyle6 {font-family:Verdana;font-weight:normal;font-style:normal;font-size:8pt;text-decoration:normal;color:#ffffff;}
+
+    a { 
+       background-color: #8684f2;
+       color: white;
+    }
+    a:hover { 
+       background-color: #010080;
+       color: white;
+    }
+    div.button {
+    // button width 100 height 36
+    color: white;
+    margin: 30px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 6px;
+    background: #949ff2;
+    text-shadow: rgba(64, 64, 64, 0.496094) 6px 7px 5px;
+    -webkit-box-shadow: rgba(0, 0, 128, 0.246094) 8px 6px 3px;
+    -moz-box-shadow: rgba(0, 0, 128, 0.246094) 8px 6px 3px;
+    }
+  div#nav {
+   position:absolute; top:7px; left:4px; z-index:0;
+  }
+  
+  #pagemetadata {
+       position: relative;
+       bottom: 5px;
+       border-top: thin solid #8684f2;
+  }
+  #sidebar {
+     position:absolute;
+     top:83px;
+     left:486px;
+     z-index:17;
+     width: 200px;
+     background-color: #fe80fe;
+     height: 585px;
+     width: 259px;
+     position:absolute; top:70px; left:478px; z-index:3;
+  }
+  ol li {
+   text-align: left;
+   text-justify: newspaper;
+   margin-left: -20px;
+
+  }
+  ol li {
+   line-height:1.6;
+    margin-bottom:2px ;
+  }
+  h1 {
+   color: yellow;
+   font-weight: 600;
+   font-size:  2.1em;
+   line-height: 1.5;
+   display: inline;
+  }
+  </style>
+  <style type="text/css">
+  DIV.Object584 { position:absolute; top:7px; left:4px; z-index:0; width: 139px; }
+  DIV.Object585 { position:absolute; top:7px; left:149px; z-index:1; width: 13px; }
+  DIV.Object586 { position:absolute; top:7px; left:168px; z-index:2; width: 570px; }
+  DIV.Object587 { position:absolute; top:70px; left:478px; z-index:3; }
+  DIV.Object588 { position:absolute; top:98px; left:173px; z-index:4; }
+  DIV.Object589 { position:absolute; top:68px; left:27px; z-index:5; }
+  DIV.Object590 { position:absolute; top:115px; left:22px; z-index:6; }
+  DIV.Object591 { position:absolute; top:152px; left:22px; z-index:7; }
+  DIV.Object592 { position:absolute; top:188px; left:22px; z-index:8; }
+  DIV.Object593 { position:absolute; top:225px; left:22px; z-index:9; }
+  DIV#Object594 { position:absolute; top:261px; left:22px; z-index:10; }
+  DIV.Object595 { position:absolute; top:298px; left:22px; z-index:11; }
+  DIV.Object596 { position:absolute; top:334px; left:22px; z-index:12; }
+  DIV.Object597 { position:absolute; top:406px; left:22px; z-index:13; }
+  DIV.Object598 { position:absolute; top:443px; left:22px; z-index:14; }
+  DIV.Object599 { position:absolute; top:370px; left:22px; z-index:15; }
+  DIV.Object600 { position:absolute; top:125px; left:176px; z-index:16; width: 275px; }
+  DIV.Object601 { position:absolute; top:83px; left:486px; z-index:17; width: 200px;}
+  DIV.Object602 { position:absolute; top:14px; left:186px; z-index:18; }
+  DIV.Object603 { position:absolute; top:23px; left:465px; z-index:19; }
+  DIV.Object604 { position:absolute; top:24px; left:25px; z-index:20; }
+  </style>
+  <style type="text/css">
+    body {
+       font-family: Verdana, Helvetica, sans-serif;
+       color: #000000;
+       font-size: .72em;
+    }
+    div#nav {
+       width: 130px: 
+       position:absolute;
+       top:68px;
+       left:18px;
+       z-index:5;
+       text-align: center;
+    }
+    h2 {
+       font-weight: 400;
+       font-size: 1.3em;
+       line-height: 1.5;
+    }
+    h3 { 
+       margin: 30px 5px 5px 10px;
+       font-weight: 700;
+       font-size: 1.1em;
+       line-height: 1.5;
+    }
+    ul { list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+      font-weight: 400;
+      font-size: 1.15em;
+      line-height: 1.5;
+      border-bottom: 0px solid #ccc;
+      margin-bottom: 6px;
+      text-align: center;
+  }
+    li:last-child {
+       border: none;
+    }
+    li a#here {
+       background-color: white;
+       color: #8684f2;
+       border: 0;
+    }
+  li a#here:hover {
+  cursor: default !important;
+  }
+
+    li a {
+       text-decoration: none;
+       color: #fff;
+       font-weight: 700;
+       display: block;
+       width: 100px;
+       padding: 5px;
+       border-radius: 3px;
+       -moz-border-radius: 3px;
+       -webkid-border-radius: 3px;
+       -moz-box-shadow: 0px 1px 3px rgba(0,0,128,0.5), inset 0px 0px 2px rgba(0,15,128,1);
+       -webkit-box-shadow: 0px 1px 3px rgba(0,0,128,0.5), inset 0px 0px 2px rgba(0,15,128,1);
+       box-shadow: 0px 1px 3px rgba(0,0,128,0.5), inset 0px 0px 2px rgba(0,15,128,1);
+       -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+       -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+       -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+       -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+       transition: font-size 0.3s ease, background-color 0.3s ease;
+    }
+
+    li a:hover {
+       background: #010080;
+    }
+  .headerblock { background-color: #010080;
+               height: 47px;
+               color: white;
+  }
+
+  </style>
+</head>
+
+<body>
+  <script type="text/javascript">
+<!--
+  window.onerror = null;
+  manufacturer = navigator.appName;
+  versionnum = parseFloat(navigator.appVersion);
+  if (manufacturer.indexOf('Netscape') >= 0 && versionnum < 4.0)
+  location.href = 'DreamHC/error.html';
+  if (manufacturer.indexOf('Microsoft') >= 0 && versionnum < 4.0)
+  location.href = 'DreamHC/error.html';
+  //-->
+  </script><!-- </HEAD> -->
+  <!-- <BODY LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0  BGCOLOR="#ffffff" LINK="#0000ff" VLINK="#800080"> -->
+
+  <div class="Object584 headerblock" style="text-align: center;">
+    <p style="padding-top: 11px;" class="textstyle6">
+    www.delirant.info</p>
+    <!-- <IMG SRC="DreamHC/Pagina0_IMG_OBJ0.jpg"  WIDTH=139 HEIGHT=47 BORDER=0> -->
+  </div>
+  <div class="Object602" style=
+  "color: white; text-align: left; margin-left: 0px; text-indent: 0px">
+  <h1>Delirium</h1>
+  </div>
+
+  <div class="Object603">
+    <div class=
+    "text-align:center;margin-left:0px;text-indent:0px;">
+      <p class="textstyle5">Multidisciplinaire richtlijn<br></p>
+    </div>
+</div>
+
+  <div class="Object585 headerblock">
+    <!-- <IMG SRC="DreamHC/Pagina0_IMG_OBJ1.jpg"  WIDTH=13 HEIGHT=47 BORDER=0> -->
+  </div>
+
+  <div class="Object586 headerblock">
+    <!-- <IMG SRC="DreamHC/Pagina0_IMG_OBJ2.jpg"  WIDTH=570 HEIGHT=47 BORDER=0> -->
+  </div>
+
+  <div id="nav">
+    <img alt="decorative image" width="110" style="margin-bottom: 15px;" src="../current-site/DreamHC/Pagina11_IMG_OBJ0.jpg">
+
+    <ul>
+      <li><a href="#">Home</a></li>
+
+      <li><a href="#">Diagnose</a></li>
+
+      <li><a href="#">Meetschalen</a></li>
+
+      <li><a id="here" href="#">Medicatie</a></li>
+
+      <li><a href="#">Verpleging</a></li>
+
+      <li><a href="#">Risicofactoren</a></li>
+
+      <li><a href="#">Preventie</a></li>
+
+      <li><a href="#">Bij ontslag</a></li>
+
+      <li><a href="#">Familiefolder</a></li>
+
+      <li><a href="#">Consult</a></li>
+
+      <li><a href="#">links</a></li>
+    </ul>
+  </div>
+
+  <div class="Object600">
+    <div class="text-align:left;margin-left:0px;text-indent:0px;">
+      <p class="parabold">Deze website is ontworpen door de
+      consultatieve diensten Geriatrie en Psychiatrie van het
+      Universitair Medisch Centrum Groningen (UMCG).</p>
+<br>
+      <p class="content">Het doel van de website is om de
+      verpleegafdelingen van het UMCG de beschikking te geven over
+      een<br> multidisciplinaire richtlijn ter preventie,
+      diagnostiek en behandeling van het delirium. De website is
+      gebaseerd op de nieuwe <emphasis>Richtlijn delirium</emphasis>
+      van de Nederlandse Vereniging voor Psychiatrie (NVvP) die is
+      ontwikkeld in samenwerking met de Nederlandse Vereniging voor
+      Klinische Geriatrie (NVKG). De totstandkoming van de richtlijn
+      is inhoudelijk ondersteund door het Kwaliteitsinstituut voor de
+      Gezondheidszorg CBO.
+      </p>
+      <div id="pagemetadata">
+
+      <p><emphasis><script type="text/javascript">
+	  da = new Date(document.lastModified);
+	  db = da.toGMTString();
+	  dc = db.split(" ");
+	  if (eval(dc[3] ) < 1970 ) dc[3] = eval( dc[3] ) +100;
+			     db = dc[1] + " " + dc[2] + " " + dc[3];
+			     document.write( "Website laatst gewijzigd op:<br>" + db )
+      </script></emphasis></p>
+</div>
+    </div>
+  </div>
+
+  <div class="Object601" id="sidebar">
+    <h3 class="parabold">Gebruik van de website:</h3>
+
+    <ol style="margin: 5px;">
+      <li class="sidebartext">De website is gericht op
+      patiënten die zijn opgenomen in een algemeen
+      ziekenhuis.</li>
+
+      <li class="sidebartext">Het staat een ieder vrij om de
+      informatie en adviezen van deze website te gebruiken.</li>
+
+      <li class="sidebartext">Wij adviseren met nadruk om de website
+      te gebruiken in overleg met een klinisch geriater of
+      psychiater.</li>
+
+      <li class="sidebartext">Wij accepteren geen
+      verantwoordelijkheid voor het gebruik van de informatie en
+      adviezen van deze website buiten het Universitair Medisch
+      Centrum Groningen.</li>
+
+      <li class="sidebartext">Wij stellen het op prijs als u ons
+      laat weten dat u de website gebruikt.</li>
+    </ol>
+
+    <h3 class="parabold"><a href="../current-site/DreamHC/Pagina38.html">Verantwoording</a></h3><span style="visibility: hidden;"
+    class="sidebartext">[<a href="DreamHC/Pagina38.html">klik
+    hier</a>]<br></span>
+
+    <h3 class="parabold">Meer informatie:</h3>
+
+    <p style="margin-left: 15px; line-height: 1.4;" class="sidebartext">G.J. Izaks,
+    klinisch geriater<br>
+    Afd. Algemene Interne Geneeskunde /<br>
+    Geriatrie<br>
+    UMC Groningen<br>
+    [<a href="mailto:g.j.izaks@int.umcg.nl">e-mail</a>]</p>
+  </div>
+
+  
+</body>
+</html>
